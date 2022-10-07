@@ -1,0 +1,159 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family: 'Roboto', sans-serif;
+    }
+.background{
+    background-color:rgb(17, 17, 17);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+}
+.images-login{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 700px;
+}
+
+.gerenciar-perfis{
+    border-style: none;
+    display: flex;
+    justify-content: center;
+}
+li{
+    cursor: pointer;
+}
+.cube{
+    border-radius:10px;
+    width: 160px;
+    margin:5px ;
+    border:5px solid transparent;
+}
+li:hover .cube{
+    border-color: antiquewhite;
+}
+li:hover .letracor{
+    color: antiquewhite;
+}
+
+.plus li{
+border-color: blanchedalmond;
+display: flex;
+flex-wrap: wrap;
+border-radius: 7px;
+width: 160px;
+margin:5px;
+border:15px;
+background-color: rgb(119, 115, 115);
+}
+.plus img{
+    height: auto;
+    width: auto;
+    margin: auto ;
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+color: blanchedalmond;
+margin: 20px;
+}
+.nomeclatura{
+display: flex;
+justify-content: center;
+background-color: rgb(17, 17, 17);
+}
+.perfil{
+display: flex;
+justify-content: center;
+}
+.letracor{
+    font-size: 20px;
+color:rgb(110, 111, 112);
+display: flex;
+justify-content: center;
+}
+.names{
+display: flex;
+justify-content: space-between;
+}
+.perfil{
+width: 160px;
+font-size: 11px;
+
+}
+.perfil2{
+    width: 160px;
+    font-size: 11px;
+    margin-left: 50px;
+}
+button{
+    cursor: pointer;
+}
+.botao-gerenciar{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+    padding-bottom: none;
+}
+.gerenciar{
+    color: blanchedalmond;
+    font-size: 17px;
+    background-color: rgb(47, 47, 61);
+    width: 210px;
+    height: 50px;
+    border-radius: 9px;
+    border:1px solid blanchedalmond;
+  }
+.gerenciar:hover{
+background-color: blanchedalmond;
+filter: brightness(120%);
+color: black;
+border-color: blanchedalmond;
+}
+.adicionar-perfil h2 :hover{
+    color: antiquewhite;
+}
+.adicionar-perfil{
+    padding-top:70px;
+    width: 160px;
+    height: 140px;
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    border-radius: 9px;
+    border:solid 5px transparent;
+    flex-wrap: wrap;
+}
+.adicionar-perfil:hover{
+    border:solid 5px blanchedalmond;
+}
+.letracor1{
+    padding-bottom:50px ;
+    margin-top: 45px;
+    font-size: 20px;
+color: rgb(110, 111, 112);
+display: flex;
+justify-content: center;
+}
+.letracor1:hover{
+    color: blanchedalmond;
+}
+.plus:hover{
+    color: blanchedalmond;
+}
